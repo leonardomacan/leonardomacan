@@ -101,6 +101,7 @@ The tool audits FRFs against a company template and quality guidelines using an 
 - **wms-putaway-audit** — Automated Putaway metrics audit, pulls warehouse data and generates structured team reports. Built after identifying that a 100%+ lead time inflation was coming from tasks that crossed day boundaries, not from actual execution.
 - **notion-reporter** — CLI that pulls Notion tasks, groups by status, enriches with page content, and generates LLM summaries. Replaced a manual weekly reporting ritual.
 - **brd-analyzer** — AI-powered Business Requirements Document analyzer: extracts operational impact, generates ops-ready questions, syncs summaries to Obsidian.
+- **calculadora-prioridade** — Claude Code native feature priority evaluator. Reads BRD/FRF documents and scores them against a structured prioritization matrix (5 goals, 14 sub-goals), producing per-dimension ratings, confidence levels, and a rule-based final priority. Runs entirely inside Claude Code — no external API calls, no script.
 
 ---
 
